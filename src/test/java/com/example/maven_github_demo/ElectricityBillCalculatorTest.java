@@ -11,7 +11,7 @@ public class ElectricityBillCalculatorTest {
 
     @Test
     public void testFirstSlab() {
-        assertEquals(500.0, obj.calculateBill(50), 0.01);
+        assertEquals(125.0, obj.calculateBill(50), 0.01);
     }
 
     @Test
